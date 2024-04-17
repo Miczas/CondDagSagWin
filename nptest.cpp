@@ -2,6 +2,9 @@
 #include <sstream>
 #include <fstream>
 #include <algorithm>
+#include <iomanip>
+#include <string>
+
 
 //#include <sys/resource.h>
 
@@ -143,6 +146,8 @@ static Analysis_result process_stream(
 //		return analyze<dtime_t, NP::Uniproc::State_space<dtime_t>>(in, dag_in, aborts_in);
 }
 
+int totalSched = 0;
+
 static void process_file(const std::string& fname)
 {
 	try {
@@ -200,6 +205,11 @@ static void process_file(const std::string& fname)
 
 		std::cout << fname;
 
+		if ((int)result.schedulable)
+		{
+			totalSched++;
+		}
+
 		if (max_depth && max_depth < result.number_of_jobs)
 			// mark result as invalid due to debug abort
 			std::cout << ",  X";
@@ -213,6 +223,7 @@ static void process_file(const std::string& fname)
 		          << ",  " << std::fixed << result.cpu_time
 		          << ",  " << (int) result.timeout
 		          << ",  " << num_processors
+				  << ",  " << totalSched
 		          << std::endl;
 	} catch (std::ios_base::failure& ex) {
 		std::cerr << fname;
@@ -373,6 +384,24 @@ int main(int argc, char** argv)
 	
 	if (options.get("print_header"))
 		print_header();
+
+
+	/*for (int i = 0; i < 100; i++)
+	{
+		for (auto f : parser.args())
+		{
+			std::stringstream ss;
+			ss << "..\\tests\\temp_" << std::setfill('0') << std::setw(3) << i << ".prec.csv";
+			precedence_file = ss.str();
+
+			std::stringstream ss1;
+			ss1 << "..\\tests\\temp_" << std::setfill('0') << std::setw(3) << i << ".csv";
+			f = ss1.str();
+
+			process_file(f);
+		}
+	}
+	*/
 
 	for (auto f : parser.args())
 		process_file(f);

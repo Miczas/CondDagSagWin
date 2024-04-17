@@ -114,10 +114,9 @@ namespace NP {
 			}
 
 
-			typedef std::multiset<State> States_storage2;
+			typedef std::multiset<State> States_storage;
 
 			typedef std::deque<State> States;
-			typedef std::deque< States > States_storage;
 
 
 #ifdef CONFIG_COLLECT_SCHEDULE_GRAPH
@@ -169,33 +168,26 @@ namespace NP {
 				return edges;
 			}
 
-			const States_storage& get_states() const
+			//const States_storage& get_states() const
+			//{
+			//	return states_storage;
+			//}
+
+			const States_storage& get_states2() const
 			{
 				return states_storage;
-			}
-
-			const States_storage2& get_states2() const
-			{
-				return states_storage2;
 			}
 
 #endif
 		private:
 
-			typedef typename std::multiset<State>::iterator State_ref2;
+			typedef typename std::multiset<State>::iterator State_Ref;
 
-			typedef typename std::deque<State>::iterator State_ref;
-			typedef typename std::forward_list<State_ref> State_refs;
-
-
-			typedef std::unordered_map<hash_value_t, State_ref2> States_map2;
-			typedef std::unordered_map<hash_value_t, State_refs> States_map;
-
+			typedef std::unordered_map<hash_value_t, State_Ref> States_map;
 
 			typedef const Job<Time>* Job_ref;
 			typedef std::multimap<Time, Job_ref> By_time_map;
 
-			typedef std::deque<State_ref> Todo_queue;
 
 			typedef Interval_lookup_table<Time, Job<Time>, Job<Time>::scheduling_window> Jobs_lut;
 
@@ -235,10 +227,10 @@ namespace NP {
 			const std::vector<Job_incompatibility_set>& incompatible;
 
 
+			//States_storage states_storage;
 			States_storage states_storage;
-			States_storage2 states_storage2;
 
-			States_map2 states_by_key;
+			States_map states_by_key;
 			// updated only by main thread
 			unsigned long num_states, width;
 			unsigned long current_job_count;
@@ -499,26 +491,21 @@ namespace NP {
 			void make_initial_state()
 			{
 				// construct initial state
-				states_storage.emplace_back();
 				new_state(num_cpus);
 			}
 
-			States& states()
+
+
+			State& state()
 			{
 
 				return states_storage.back();
 			}
 
-			State& state()
-			{
-
-				return states_storage2.back();
-			}
-
 			template <typename... Args>
-			State_ref2 alloc_state(Args&&... args)
+			State_Ref alloc_state(Args&&... args)
 			{
-				State_ref2 s = states_storage2.emplace(std::forward<Args>(args)...);
+				State_Ref s = states_storage.emplace(std::forward<Args>(args)...);
 
 				// s = --state().end();
 
@@ -533,11 +520,11 @@ namespace NP {
 				return s;
 			}
 
-			void dealloc_state(State_ref2 s)
+			void dealloc_state(State_Ref s)
 			{
-				auto itr = states_storage2.find(*s);
-				if (itr != states_storage2.end()) {
-					states_storage2.erase(itr);
+				auto itr = states_storage.find(*s);
+				if (itr != states_storage.end()) {
+					states_storage.erase(itr);
 				}
 			}
 
@@ -550,19 +537,15 @@ namespace NP {
 			template <typename... Args>
 			const State& new_or_merged_state(Args&&... args)
 			{
-				States_storage2 tempStorage;
-				State_ref2 s_ref = tempStorage.emplace(std::forward<Args>(args)...);
+				States_storage tempStorage;
+				State_Ref s_ref = tempStorage.emplace(std::forward<Args>(args)...);
 
 				bool merged = false;
 
 				// try to merge the new state into an existing state
-				State_ref2 s = merge_or_cache(s_ref, &merged);
+				State_Ref s = merge_or_cache(s_ref, &merged);
 				
-				//auto itr = states_storage2.find(*s);
-				//if (itr != states_storage2.end()) {
-				//	if (itr->get_Omega() == s->get_Omega())
-				//	return *itr;
-				//}
+
 				if (merged)
 					return *s;
 
@@ -571,27 +554,27 @@ namespace NP {
 			}
 
 
-			void cache_state(State_ref2 s)
+			void cache_state(State_Ref s)
 			{
 				// create a new list if needed, or lookup if already existing
 				//auto res = states_by_key.emplace(
-				//	std::make_pair(s->get_key(), State_ref2()));
+				//	std::make_pair(s->get_key(), State_Ref()));
 
 				//auto pair_it = res.first;
-			//	State_ref2& list = pair_it->second;
+			//	State_Ref& list = pair_it->second;
 
 				//list.push_front(s);
 			}
 
 
-			State_ref2 merge_or_cache(State_ref2 s_ref, bool *merged)
+			State_Ref merge_or_cache(State_Ref s_ref, bool *merged)
 			{
 				//const State& s = *s_ref;
 
 
-				State_ref2 other;
+				State_Ref other;
 
-				for (other = states_storage2.begin(); other != states_storage2.end(); ++other)
+				for (other = states_storage.begin(); other != states_storage.end(); ++other)
 				{
 					if (const_cast<State&>(*other).try_to_merge(*s_ref))
 					{
@@ -640,7 +623,7 @@ namespace NP {
 
 				return rdy; //unfinished(s, j) && s.job_ready(predecessors_of(j));
 			}
-
+			//M: this needs to be changed, its not about the number of scheduled jobs, when conditions are introduced, all jobs will never be scheduled
 			bool all_jobs_scheduled(const State& s) const
 			{
 				return s.number_of_scheduled_jobs() == jobs.size();
@@ -957,9 +940,9 @@ namespace NP {
 				}
 
 				// check for a dead end
-				if (!found_one && !all_jobs_scheduled(s))
+				//if (!found_one && !all_jobs_scheduled(s))
 					// out of options and we didn't schedule all jobs
-					aborted = true;
+				//	aborted = true;
 			}
 
 
@@ -974,14 +957,14 @@ namespace NP {
 			void explore()
 			{
 				make_initial_state();
-				for (auto const& currentState : states_storage2) {
+				for (auto const& currentState : states_storage) {
 					
 
 					//States& exploration_front = states();
 
 
 					// allocate states space for next depth
-					//states_storage2.emplace();
+					//states_storage.emplace();
 
 					// keep track of exploration front width
 
@@ -1014,16 +997,16 @@ namespace NP {
 					// all those that we are done with, which saves a lot of
 					// memory.
 
-					states_storage2.pop_front();
+					states_storage.pop_front();
 #endif
 				}
 
 
 #ifndef CONFIG_COLLECT_SCHEDULE_GRAPH
 				// clean out any remaining states
-				while (!states_storage2.empty()) {
+				while (!states_storage.empty()) {
 
-					states_storage2.pop_front();
+					states_storage.pop_front();
 				}
 #endif
 
