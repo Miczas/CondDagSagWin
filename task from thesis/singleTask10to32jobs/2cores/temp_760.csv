@@ -1,0 +1,15 @@
+   Task ID,     Job ID,          Arrival min,          Arrival max,             Cost min,             Cost max,             Deadline,             Priority
+0, 0, 0, 0, 57, 72, 450, 1, normal 
+0, 1, 0, 0, 0, 1, 450, 1, normal 
+0, 2, 0, 0, 55, 69, 450, 1, normal 
+0, 3, 0, 0, 55, 69, 450, 1, fork 
+0, 4, 0, 0, 59, 74, 450, 1, normal 
+0, 5, 0, 0, 3, 4, 450, 1, normal 
+0, 6, 0, 0, 37, 47, 450, 1, normal 
+0, 7, 0, 0, 72, 90, 450, 1, fork 
+0, 8, 0, 0, 70, 88, 450, 1, normal 
+0, 9, 0, 0, 43, 54, 450, 1, normal 
+0, 10, 0, 0, 78, 98, 450, 1, join 
+0, 11, 0, 0, 72, 91, 450, 1, join 
+0, 12, 0, 0, 27, 34, 450, 1, normal 
+0, 13, 0, 0, 19, 24, 450, 1, normal 

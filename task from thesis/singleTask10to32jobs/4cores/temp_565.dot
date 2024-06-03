@@ -1,0 +1,33 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [79, 99] \n{T0J0:79-99}{1}"];
+	S2[label="S2: [79, 79] [79, 79] [79, 99] [117, 147] \n{T0J1:117-147}{1, 2}"];
+	S3[label="S3: [79, 79] [79, 99] [114, 143] [117, 147] \n{T0J1:117-147, T0J2:114-143}{1, 2, 3}"];
+	S4[label="S4: [114, 114] [114, 143] [117, 147] [117, 147] \n{T0J3:117-147}{1, 2, 3, 4}"];
+	S5[label="S5: [114, 143] [117, 147] [117, 147] [123, 155] \n{T0J6:123-155}{1, 2, 3, 4, 7}"];
+	S6[label="S6: [117, 143] [117, 143] [117, 147] [123, 185] \n{}{1, 2, 3, 4, 5, 6}"];
+	S7[label="S7: [117, 147] [117, 147] [123, 155] [167, 210] \n{T0J7:167-210}{1, 2, 3, 4, 7, 8}"];
+	S8[label="S8: [117, 147] [117, 147] [123, 155] [123, 185] \n{}{1, 2, 3, 4, 5, 6, 7}"];
+	S9[label="S9: [117, 147] [123, 155] [123, 189] [167, 214] \n{T0J7:167-214}{1, 2, 3, 4, 5, 6, 7, 8}"];
+	S10[label="S10: [150, 155] [150, 189] [167, 214] [195, 246] \n{T0J10:195-246}{1, 2, 3, 4, 5, 6, 7, 8, 11}"];
+	S11[label="S11: [167, 167] [167, 189] [167, 189] [230, 268] \n{T0J8:230-268}{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}"];
+	S12[label="S12: [167, 167] [167, 189] [167, 189] [175, 199] \n{T0J9:175-199}{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}"];
+	S0 -> S1[label="T0 J0\nDL=250\nES=0\nLS=0\nEF=79\nLF=99",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=250\nES=79\nLS=99\nEF=117\nLF=147",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=250\nES=79\nLS=99\nEF=114\nLF=143",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=250\nES=114\nLS=143\nEF=117\nLF=147",fontsize=8];
+	S4 -> S6[label="T0 J4\nDL=250\nES=117\nLS=143\nEF=150\nLF=185",fontsize=8];
+	S4 -> S6[label="T0 J5\nDL=250\nES=117\nLS=143\nEF=123\nLF=151",fontsize=8];
+	S4 -> S5[label="T0 J6\nDL=250\nES=114\nLS=143\nEF=123\nLF=155",fontsize=8];
+	S5 -> S8[label="T0 J4\nDL=250\nES=117\nLS=143\nEF=150\nLF=185",fontsize=8];
+	S5 -> S8[label="T0 J5\nDL=250\nES=117\nLS=143\nEF=123\nLF=151",fontsize=8];
+	S5 -> S7[label="T0 J7\nDL=250\nES=114\nLS=143\nEF=167\nLF=210",fontsize=8];
+	S6 -> S8[label="T0 J6\nDL=250\nES=117\nLS=143\nEF=126\nLF=155",fontsize=8];
+	S7 -> S9[label="T0 J4\nDL=250\nES=117\nLS=147\nEF=150\nLF=189",fontsize=8];
+	S7 -> S9[label="T0 J5\nDL=250\nES=117\nLS=147\nEF=123\nLF=155",fontsize=8];
+	S8 -> S9[label="T0 J7\nDL=250\nES=117\nLS=147\nEF=170\nLF=214",fontsize=8];
+	S9 -> S11[label="T0 J8\nDL=250\nES=167\nLS=189\nEF=230\nLF=268",color=Red,fontcolor=Red,fontsize=8];
+S11[color=Red];
+	S9 -> S12[label="T0 J9\nDL=250\nES=167\nLS=189\nEF=175\nLF=199",fontsize=8];
+	S9 -> S10[label="T0 J10\nDL=250\nES=150\nLS=189\nEF=195\nLF=246",fontsize=8];
+}

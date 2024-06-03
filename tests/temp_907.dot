@@ -1,0 +1,16 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [38, 48] \n{T0J0:38-48}{1}"];
+	S2[label="S2: [38, 38] [38, 38] [38, 48] [50, 63] \n{T0J1:50-63}{1, 2}"];
+	S3[label="S3: [38, 38] [38, 48] [50, 63] [86, 108] \n{T0J1:50-63, T0J2:86-108}{1, 2, 3}"];
+	S4[label="S4: [86, 86] [86, 86] [86, 108] [102, 129] \n{T0J3:102-129}{1, 2, 3, 4}"];
+	S5[label="S5: [102, 102] [102, 108] [102, 108] [133, 147] \n{T0J4:133-147}{1, 2, 3, 4, 5}"];
+	S6[label="S6: [86, 86] [86, 108] [102, 129] [158, 198] \n{T0J8:158-198}{1, 2, 3, 4, 9}"];
+	S0 -> S1[label="T0 J0\nDL=150\nES=0\nLS=0\nEF=38\nLF=48",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=150\nES=38\nLS=48\nEF=50\nLF=63",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=150\nES=38\nLS=48\nEF=86\nLF=108",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=150\nES=86\nLS=108\nEF=102\nLF=129",fontsize=8];
+	S4 -> S5[label="T0 J4\nDL=150\nES=102\nLS=108\nEF=133\nLF=147",fontsize=8];
+	S4 -> S6[label="T0 J8\nDL=150\nES=86\nLS=108\nEF=158\nLF=198",color=Red,fontcolor=Red,fontsize=8];
+S6[color=Red];
+}

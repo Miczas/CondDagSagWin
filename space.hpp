@@ -173,7 +173,7 @@ namespace NP {
 			//	return states_storage;
 			//}
 
-			const States_storage& get_states2() const
+			const States_storage& get_states() const
 			{
 				return states_storage;
 			}
@@ -181,9 +181,9 @@ namespace NP {
 #endif
 		private:
 
-			typedef typename std::multiset<State>::iterator State_Ref;
+			typedef typename std::multiset<State>::iterator State_ref;
 
-			typedef std::unordered_map<hash_value_t, State_Ref> States_map;
+			typedef std::unordered_map<hash_value_t, State_ref> States_map;
 
 			typedef const Job<Time>* Job_ref;
 			typedef std::multimap<Time, Job_ref> By_time_map;
@@ -503,9 +503,9 @@ namespace NP {
 			}
 
 			template <typename... Args>
-			State_Ref alloc_state(Args&&... args)
+			State_ref alloc_state(Args&&... args)
 			{
-				State_Ref s = states_storage.emplace(std::forward<Args>(args)...);
+				State_ref s = states_storage.emplace(std::forward<Args>(args)...);
 
 				// s = --state().end();
 
@@ -520,7 +520,7 @@ namespace NP {
 				return s;
 			}
 
-			void dealloc_state(State_Ref s)
+			void dealloc_state(State_ref s)
 			{
 				auto itr = states_storage.find(*s);
 				if (itr != states_storage.end()) {
@@ -538,12 +538,12 @@ namespace NP {
 			const State& new_or_merged_state(Args&&... args)
 			{
 				States_storage tempStorage;
-				State_Ref s_ref = tempStorage.emplace(std::forward<Args>(args)...);
+				State_ref s_ref = tempStorage.emplace(std::forward<Args>(args)...);
 
 				bool merged = false;
 
 				// try to merge the new state into an existing state
-				State_Ref s = merge_or_cache(s_ref, &merged);
+				State_ref s = merge_or_cache(s_ref, &merged);
 				
 
 				if (merged)
@@ -554,25 +554,25 @@ namespace NP {
 			}
 
 
-			void cache_state(State_Ref s)
+			void cache_state(State_ref s)
 			{
 				// create a new list if needed, or lookup if already existing
 				//auto res = states_by_key.emplace(
-				//	std::make_pair(s->get_key(), State_Ref()));
+				//	std::make_pair(s->get_key(), State_ref()));
 
 				//auto pair_it = res.first;
-			//	State_Ref& list = pair_it->second;
+			//	State_ref& list = pair_it->second;
 
 				//list.push_front(s);
 			}
 
 
-			State_Ref merge_or_cache(State_Ref s_ref, bool *merged)
+			State_ref merge_or_cache(State_ref s_ref, bool *merged)
 			{
 				//const State& s = *s_ref;
 
 
-				State_Ref other;
+				State_ref other;
 
 				for (other = states_storage.begin(); other != states_storage.end(); ++other)
 				{
@@ -1025,7 +1025,7 @@ namespace NP {
 
 
 
-				for (const auto& s : space.get_states2()) {
+				for (const auto& s : space.get_states()) {
 					//for (const Schedule_state<Time>& s : front) {
 
 						state_id[&s] = i++;

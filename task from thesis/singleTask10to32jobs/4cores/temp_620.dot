@@ -1,0 +1,22 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [71, 89] \n{T0J0:71-89}{1}"];
+	S2[label="S2: [71, 71] [71, 71] [71, 89] [84, 106] \n{T0J1:84-106}{1, 2}"];
+	S3[label="S3: [71, 71] [71, 89] [84, 106] [119, 149] \n{T0J2:119-149}{1, 2, 3}"];
+	S4[label="S4: [119, 119] [119, 119] [119, 149] [152, 191] \n{T0J3:152-191}{1, 2, 3, 4}"];
+	S5[label="S5: [119, 119] [119, 149] [152, 191] [170, 213] \n{T0J3:152-191, T0J6:170-213}{1, 2, 3, 4, 7}"];
+	S6[label="S6: [119, 149] [152, 191] [170, 213] [178, 223] \n{T0J3:152-191, T0J6:170-213, T0J7:178-223}{1, 2, 3, 4, 7, 8}"];
+	S7[label="S7: [152, 191] [170, 213] [178, 223] [184, 263] \n{}{1, 2, 3, 4, 5, 6, 7, 8}"];
+	S8[label="S8: [178, 190] [178, 191] [178, 213] [205, 242] \n{}{1, 2, 3, 4, 7, 8, 9, 10}"];
+	S0 -> S1[label="T0 J0\nDL=250\nES=0\nLS=0\nEF=71\nLF=89",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=250\nES=71\nLS=89\nEF=84\nLF=106",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=250\nES=71\nLS=89\nEF=119\nLF=149",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=250\nES=119\nLS=149\nEF=152\nLF=191",fontsize=8];
+	S4 -> S5[label="T0 J6\nDL=250\nES=119\nLS=149\nEF=170\nLF=213",fontsize=8];
+	S5 -> S6[label="T0 J7\nDL=250\nES=119\nLS=149\nEF=178\nLF=223",fontsize=8];
+	S6 -> S7[label="T0 J4\nDL=250\nES=152\nLS=191\nEF=209\nLF=263",color=Red,fontcolor=Red,fontsize=8];
+S7[color=Red];
+	S6 -> S7[label="T0 J5\nDL=250\nES=152\nLS=191\nEF=184\nLF=232",fontsize=8];
+	S6 -> S8[label="T0 J8\nDL=250\nES=178\nLS=190\nEF=219\nLF=242",fontsize=8];
+	S6 -> S8[label="T0 J9\nDL=250\nES=178\nLS=190\nEF=205\nLF=224",fontsize=8];
+}

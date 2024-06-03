@@ -1,0 +1,20 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [4, 6] \n{T0J0:4-6}{1}"];
+	S2[label="S2: [4, 4] [4, 4] [4, 6] [70, 89] \n{T0J1:70-89}{1, 2}"];
+	S3[label="S3: [4, 4] [4, 6] [70, 89] [83, 105] \n{T0J1:70-89, T0J2:83-105}{1, 2, 3}"];
+	S4[label="S4: [83, 83] [83, 89] [83, 105] [86, 109] \n{T0J3:86-109}{1, 2, 3, 4}"];
+	S5[label="S5: [86, 89] [86, 105] [86, 105] [97, 119] \n{T0J4:97-119}{1, 2, 3, 4, 5}"];
+	S6[label="S6: [83, 89] [83, 105] [86, 109] [103, 130] \n{T0J8:103-130}{1, 2, 3, 4, 9}"];
+	S7[label="S7: [86, 105] [86, 105] [97, 119] [123, 152] \n{T0J5:123-152}{1, 2, 3, 4, 5, 6}"];
+	S8[label="S8: [86, 105] [86, 105] [97, 119] [106, 130] \n{T0J8:106-130}{1, 2, 3, 4, 5, 9}"];
+	S0 -> S1[label="T0 J0\nDL=150\nES=0\nLS=0\nEF=4\nLF=6",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=150\nES=4\nLS=6\nEF=70\nLF=89",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=150\nES=4\nLS=6\nEF=83\nLF=105",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=150\nES=83\nLS=105\nEF=86\nLF=109",fontsize=8];
+	S4 -> S5[label="T0 J4\nDL=150\nES=86\nLS=105\nEF=97\nLF=119",fontsize=8];
+	S4 -> S6[label="T0 J8\nDL=150\nES=83\nLS=105\nEF=103\nLF=130",fontsize=8];
+	S5 -> S7[label="T0 J5\nDL=150\nES=86\nLS=105\nEF=123\nLF=152",color=Red,fontcolor=Red,fontsize=8];
+S7[color=Red];
+	S5 -> S8[label="T0 J8\nDL=150\nES=86\nLS=105\nEF=106\nLF=130",fontsize=8];
+}

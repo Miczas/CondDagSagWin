@@ -1,0 +1,12 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [29, 37] \n{T0J0:29-37}{1}"];
+	S2[label="S2: [29, 29] [29, 29] [29, 37] [74, 94] \n{T0J1:74-94}{1, 2}"];
+	S3[label="S3: [29, 29] [29, 37] [74, 94] [81, 103] \n{T0J1:74-94, T0J2:81-103}{1, 2, 3}"];
+	S4[label="S4: [81, 81] [81, 94] [81, 103] [129, 163] \n{T0J3:129-163}{1, 2, 3, 4}"];
+	S0 -> S1[label="T0 J0\nDL=150\nES=0\nLS=0\nEF=29\nLF=37",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=150\nES=29\nLS=37\nEF=74\nLF=94",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=150\nES=29\nLS=37\nEF=81\nLF=103",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=150\nES=81\nLS=103\nEF=129\nLF=163",color=Red,fontcolor=Red,fontsize=8];
+S4[color=Red];
+}

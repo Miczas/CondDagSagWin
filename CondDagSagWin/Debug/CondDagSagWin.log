@@ -1,0 +1,198 @@
+﻿  nptest.cpp
+C:\Users\micha\Documents\studia\CondDagSagWin\index_set.hpp(96,24): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(228,35): warning C4101: 'ex': unreferenced local variable
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244: 'argument': conversion from 'T' to 'const _Ty', possible loss of data
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         with
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         [
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:             T=dense_t
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         ]
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         and
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         [
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:             _Ty=__int64
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46): warning C4244:         ]
+  C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(106,46):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(132,10):
+  	see reference to function template instantiation 'Analysis_result analyze<dense_t,NP::Global::State_space<dense_t>>(std::istream &,std::istream &,std::istream &)' being compiled
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(294,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(294,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(134,10):
+  	see reference to function template instantiation 'Analysis_result analyze<dtime_t,NP::Global::State_space<dtime_t>>(std::istream &,std::istream &,std::istream &)' being compiled
+  	C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(66,1):
+  	see reference to class template instantiation 'NP::Global::State_space<dtime_t>' being compiled
+  	C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(245,4):
+  	while compiling class template member function 'NP::Global::State_space<dtime_t>::State_space(const std::vector<NP::Job<Time>,std::allocator<NP::Job<Time>>> &,const NP::Precedence_constraints &,unsigned int,double,unsigned int,size_t)'
+          with
+          [
+              Time=dtime_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(44,12):
+  		see the first reference to 'NP::Global::State_space<dtime_t>::State_space' in 'NP::Global::State_space<dtime_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(85,13):
+  		see the first reference to 'NP::Global::State_space<dtime_t>::explore' in 'analyze'
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(165,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(165,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(1019,25):
+  	while compiling class template member function 'std::ostream &NP::Global::operator <<(std::ostream &,const NP::Global::State_space<dense_t> &)'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(92,9):
+  		see the first reference to 'NP::Global::operator <<' in 'analyze'
+  	C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(1028,42):
+  	see reference to class template instantiation 'NP::Global::Schedule_state<Time>' being compiled
+          with
+          [
+              Time=dense_t
+          ]
+  	C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(160,9):
+  	while compiling class template member function 'bool NP::Global::Schedule_state<Time>::try_to_merge(const NP::Global::Schedule_state<Time> &)'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(579,6):
+  		see the first reference to 'NP::Global::Schedule_state<Time>::try_to_merge' in 'NP::Global::State_space<dense_t>::merge_or_cache'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(546,17):
+  		see the first reference to 'NP::Global::State_space<dense_t>::merge_or_cache' in 'NP::Global::State_space<dense_t>::new_or_merged_state'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(862,18):
+  		see the first reference to 'NP::Global::State_space<dense_t>::new_or_merged_state' in 'NP::Global::State_space<dense_t>::dispatch'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(911,17):
+  		see the first reference to 'NP::Global::State_space<dense_t>::dispatch' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(981,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(48,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(85,13):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'analyze'
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(148,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(148,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(140,9):
+  	while compiling class template member function 'bool NP::Global::Schedule_state<Time>::can_merge_with(const NP::Global::Schedule_state<Time> &) const'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(162,5):
+  		see the first reference to 'NP::Global::Schedule_state<Time>::can_merge_with' in 'NP::Global::Schedule_state<Time>::try_to_merge'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(579,6):
+  		see the first reference to 'NP::Global::Schedule_state<Time>::try_to_merge' in 'NP::Global::State_space<dense_t>::merge_or_cache'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(546,17):
+  		see the first reference to 'NP::Global::State_space<dense_t>::merge_or_cache' in 'NP::Global::State_space<dense_t>::new_or_merged_state'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(862,18):
+  		see the first reference to 'NP::Global::State_space<dense_t>::new_or_merged_state' in 'NP::Global::State_space<dense_t>::dispatch'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(911,17):
+  		see the first reference to 'NP::Global::State_space<dense_t>::dispatch' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(981,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(48,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(85,13):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'analyze'
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(67,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(67,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(39,4):
+  	while compiling class template member function 'NP::Global::Schedule_state<Time>::Schedule_state(const NP::Global::Schedule_state<Time> &,NP::Global::Job_index,const NP::Global::Job_precedence_set &,Interval<Time>,Interval<Time>,NP::hash_value_t,const std::vector<NP::Global::Job_incompatibility_set,std::allocator<NP::Global::Job_incompatibility_set>> &)'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82):
+  		see the first reference to 'NP::Global::Schedule_state<Time>::Schedule_state' in 'std::_Default_allocator_traits<_Alloc>::construct'
+          with
+          [
+              Time=dense_t
+          ]
+          and
+          [
+              _Alloc=std::allocator<std::_Tree_node<NP::Global::Schedule_state<dense_t>,std::_Default_allocator_traits<std::allocator<NP::Global::Schedule_state<dense_t>>>::void_pointer>>
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtree(806,34):
+  		see the first reference to 'std::_Default_allocator_traits<_Alloc>::construct' in 'std::_Tree_temp_node<std::allocator<std::_Tree_node<NP::Global::Schedule_state<Time>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node'
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<NP::Global::Schedule_state<dense_t>,std::_Default_allocator_traits<std::allocator<NP::Global::Schedule_state<dense_t>>>::void_pointer>>
+          ]
+          and
+          [
+              Time=dense_t,
+              _Alloc=std::allocator<NP::Global::Schedule_state<dense_t>>
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtree(1002,46):
+  		see the first reference to 'std::_Tree_temp_node<std::allocator<std::_Tree_node<NP::Global::Schedule_state<Time>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node' in 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Emplace'
+          with
+          [
+              Time=dense_t,
+              _Alloc=std::allocator<NP::Global::Schedule_state<dense_t>>
+          ]
+          and
+          [
+              _Kty=NP::Global::Schedule_state<dense_t>,
+              _Pr=std::less<NP::Global::Schedule_state<dense_t>>,
+              _Alloc=std::allocator<NP::Global::Schedule_state<dense_t>>
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtree(1024,30):
+  		see the first reference to 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Emplace' in 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::emplace'
+          with
+          [
+              _Kty=NP::Global::Schedule_state<dense_t>,
+              _Pr=std::less<NP::Global::Schedule_state<dense_t>>,
+              _Alloc=std::allocator<NP::Global::Schedule_state<dense_t>>
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\set(364,9):
+  		see the first reference to 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::emplace' in 'std::multiset<NP::Global::Schedule_state<Time>,std::less<NP::Global::Schedule_state<Time>>,std::allocator<NP::Global::Schedule_state<Time>>>::emplace'
+          with
+          [
+              _Kty=NP::Global::Schedule_state<dense_t>,
+              _Pr=std::less<NP::Global::Schedule_state<dense_t>>,
+              _Alloc=std::allocator<NP::Global::Schedule_state<dense_t>>
+          ]
+          and
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(541,21):
+  		see the first reference to 'std::multiset<NP::Global::Schedule_state<Time>,std::less<NP::Global::Schedule_state<Time>>,std::allocator<NP::Global::Schedule_state<Time>>>::emplace' in 'NP::Global::State_space<dense_t>::new_or_merged_state'
+          with
+          [
+              Time=dense_t
+          ]
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(862,18):
+  		see the first reference to 'NP::Global::State_space<dense_t>::new_or_merged_state' in 'NP::Global::State_space<dense_t>::dispatch'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(911,17):
+  		see the first reference to 'NP::Global::State_space<dense_t>::dispatch' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(981,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\space.hpp(48,14):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'NP::Global::State_space<dense_t>::explore'
+  		C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(85,13):
+  		see the first reference to 'NP::Global::State_space<dense_t>::explore' in 'analyze'
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\state.hpp(103,23): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../nptest.cpp')
+  
+C:\Users\micha\Documents\studia\CondDagSagWin\nptest.cpp(147): warning C4715: 'process_stream': not all control paths return a value
+  CondDagSagWin.vcxproj -> C:\Users\micha\Documents\studia\CondDagSagWin\Debug\CondDagSagWin.exe

@@ -1,0 +1,23 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [13, 17] \n{T0J0:13-17}{1}"];
+	S2[label="S2: [13, 13] [13, 13] [13, 17] [64, 81] \n{T0J1:64-81}{1, 2}"];
+	S3[label="S3: [13, 13] [13, 17] [41, 53] [64, 81] \n{T0J1:64-81, T0J2:41-53}{1, 2, 3}"];
+	S4[label="S4: [41, 41] [41, 53] [64, 81] [101, 129] \n{T0J1:64-81, T0J3:101-129}{1, 2, 3, 4}"];
+	S5[label="S5: [41, 53] [64, 81] [64, 82] [101, 129] \n{T0J1:64-81, T0J3:101-129, T0J6:64-82}{1, 2, 3, 4, 7}"];
+	S6[label="S6: [64, 81] [64, 82] [81, 104] [101, 129] \n{T0J1:64-81, T0J3:101-129, T0J6:64-82, T0J7:81-104}{1, 2, 3, 4, 7, 8}"];
+	S7[label="S7: [101, 101] [101, 104] [101, 104] [133, 149] \n{}{1, 2, 3, 4, 5, 6, 7, 8}"];
+	S8[label="S8: [81, 82] [81, 104] [101, 129] [114, 146] \n{T0J8:114-146}{1, 2, 3, 4, 7, 8, 9, 10}"];
+	S9[label="S9: [81, 82] [81, 104] [101, 129] [153, 194] \n{T0J9:153-194}{1, 2, 3, 4, 7, 8, 9, 10}"];
+	S0 -> S1[label="T0 J0\nDL=150\nES=0\nLS=0\nEF=13\nLF=17",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=150\nES=13\nLS=17\nEF=64\nLF=81",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=150\nES=13\nLS=17\nEF=41\nLF=53",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=150\nES=41\nLS=53\nEF=101\nLF=129",fontsize=8];
+	S4 -> S5[label="T0 J6\nDL=150\nES=41\nLS=53\nEF=64\nLF=82",fontsize=8];
+	S5 -> S6[label="T0 J7\nDL=150\nES=41\nLS=53\nEF=81\nLF=104",fontsize=8];
+	S6 -> S7[label="T0 J4\nDL=150\nES=101\nLS=104\nEF=133\nLF=144",fontsize=8];
+	S6 -> S7[label="T0 J5\nDL=150\nES=101\nLS=104\nEF=137\nLF=149",fontsize=8];
+	S6 -> S8[label="T0 J8\nDL=150\nES=81\nLS=104\nEF=114\nLF=146",fontsize=8];
+	S6 -> S9[label="T0 J9\nDL=150\nES=81\nLS=104\nEF=153\nLF=194",color=Red,fontcolor=Red,fontsize=8];
+S9[color=Red];
+}

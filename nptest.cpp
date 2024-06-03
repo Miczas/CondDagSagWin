@@ -386,7 +386,7 @@ int main(int argc, char** argv)
 		print_header();
 
 
-	/*for (int i = 0; i < 100; i++)
+	for (int i = 0; i < 1000; i++)
 	{
 		for (auto f : parser.args())
 		{
@@ -401,10 +401,10 @@ int main(int argc, char** argv)
 			process_file(f);
 		}
 	}
-	*/
+	
 
-	for (auto f : parser.args())
-		process_file(f);
+	//for (auto f : parser.args())
+	//	process_file(f);
 
 	if (parser.args().empty())
 		process_file("-");

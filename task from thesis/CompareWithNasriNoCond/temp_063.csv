@@ -1,0 +1,13 @@
+   Task ID,     Job ID,          Arrival min,          Arrival max,             Cost min,             Cost max,             Deadline,             Priority
+0, 0, 0, 0, 76, 96, 1400, 1, normal 
+0, 1, 0, 0, 54, 68, 1400, 1, normal 
+0, 2, 0, 0, 25, 32, 1400, 1, normal 
+0, 3, 0, 0, 31, 39, 1400, 1, normal 
+0, 4, 0, 0, 4, 5, 1400, 1, normal 
+0, 5, 0, 0, 68, 86, 1400, 1, normal 
+0, 6, 0, 0, 31, 39, 1400, 1, normal 
+0, 7, 0, 0, 44, 56, 1400, 1, normal 
+0, 8, 0, 0, 6, 8, 1400, 1, normal 
+0, 9, 0, 0, 20, 26, 1400, 1, normal 
+0, 10, 0, 0, 68, 85, 1400, 1, normal 
+0, 11, 0, 0, 19, 24, 1400, 1, normal 

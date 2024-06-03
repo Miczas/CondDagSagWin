@@ -1,0 +1,61 @@
+﻿  nptest.cpp
+C:\Users\Michal\source\repos\CondDagSagWin\index_set.hpp(96,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(217,35): warning C4101: 'ex': unreferenced local variable
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(103,46): warning C4244: 'argument': conversion from 'T' to 'const _Ty', possible loss of data
+          with
+          [
+              T=dense_t
+          ]
+          and
+          [
+              _Ty=__int64
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(129): message : see reference to function template instantiation 'Analysis_result analyze<dense_t,NP::Global::State_space<dense_t>>(std::istream &,std::istream &,std::istream &)' being compiled
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(165,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(161): message : while compiling class template member function 'bool NP::Global::Schedule_state<Time>::try_to_merge(const NP::Global::Schedule_state<Time> &)'
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\space.hpp(535): message : see reference to function template instantiation 'bool NP::Global::Schedule_state<Time>::try_to_merge(const NP::Global::Schedule_state<Time> &)' being compiled
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\deque(594): message : see reference to class template instantiation 'NP::Global::Schedule_state<Time>' being compiled
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\space.hpp(187): message : see reference to class template instantiation 'std::deque<NP::Global::Schedule_state<Time>,std::allocator<NP::Global::Schedule_state<Time>>>' being compiled
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(82): message : see reference to class template instantiation 'NP::Global::State_space<dtime_t>' being compiled
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(131): message : see reference to function template instantiation 'Analysis_result analyze<dtime_t,NP::Global::State_space<dtime_t>>(std::istream &,std::istream &,std::istream &)' being compiled
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(148,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(141): message : while compiling class template member function 'bool NP::Global::Schedule_state<Time>::can_merge_with(const NP::Global::Schedule_state<Time> &) const'
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(162): message : see reference to function template instantiation 'bool NP::Global::Schedule_state<Time>::can_merge_with(const NP::Global::Schedule_state<Time> &) const' being compiled
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(67,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(39): message : while compiling class template member function 'NP::Global::Schedule_state<Time>::Schedule_state(const NP::Global::Schedule_state<Time> &,NP::Global::Job_index,const NP::Global::Job_precedence_set &,Interval<dtime_t>,Interval<dtime_t>,NP::hash_value_t,const std::vector<NP::Global::Job_incompatibility_set,std::allocator<NP::Global::Job_incompatibility_set>> &)'
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(701): message : see reference to function template instantiation 'NP::Global::Schedule_state<Time>::Schedule_state(const NP::Global::Schedule_state<Time> &,NP::Global::Job_index,const NP::Global::Job_precedence_set &,Interval<dtime_t>,Interval<dtime_t>,NP::hash_value_t,const std::vector<NP::Global::Job_incompatibility_set,std::allocator<NP::Global::Job_incompatibility_set>> &)' being compiled
+          with
+          [
+              Time=dtime_t
+          ]
+C:\Users\Michal\source\repos\CondDagSagWin\state.hpp(103,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michal\source\repos\CondDagSagWin\nptest.cpp(144): warning C4715: 'process_stream': not all control paths return a value
+  CondDagSagWin.vcxproj -> C:\Users\Michal\source\repos\CondDagSagWin\Debug\CondDagSagWin.exe

@@ -1,0 +1,8 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [44, 56] \n{T0J0:44-56}{1}"];
+	S2[label="S2: [44, 44] [44, 44] [44, 56] [120, 152] \n{T0J1:120-152}{1, 2}"];
+	S0 -> S1[label="T0 J0\nDL=150\nES=0\nLS=0\nEF=44\nLF=56",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=150\nES=44\nLS=56\nEF=120\nLF=152",color=Red,fontcolor=Red,fontsize=8];
+S2[color=Red];
+}

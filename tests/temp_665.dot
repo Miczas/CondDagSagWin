@@ -1,0 +1,14 @@
+digraph {
+	S0[label="S0: [0, 0] [0, 0] [0, 0] [0, 0] \n{}{}"];
+	S1[label="S1: [0, 0] [0, 0] [0, 0] [24, 30] \n{T0J0:24-30}{1}"];
+	S2[label="S2: [24, 24] [24, 24] [24, 30] [67, 84] \n{T0J1:67-84}{1, 2}"];
+	S3[label="S3: [24, 24] [24, 30] [67, 84] [95, 119] \n{T0J1:67-84, T0J2:95-119}{1, 2, 3}"];
+	S4[label="S4: [95, 95] [95, 95] [95, 119] [127, 159] \n{T0J3:127-159}{1, 2, 3, 4}"];
+	S5[label="S5: [95, 95] [95, 119] [127, 159] [162, 203] \n{T0J3:127-159, T0J7:162-203}{1, 2, 3, 4, 8}"];
+	S0 -> S1[label="T0 J0\nDL=200\nES=0\nLS=0\nEF=24\nLF=30",fontsize=8];
+	S1 -> S2[label="T0 J1\nDL=200\nES=24\nLS=30\nEF=67\nLF=84",fontsize=8];
+	S2 -> S3[label="T0 J2\nDL=200\nES=24\nLS=30\nEF=95\nLF=119",fontsize=8];
+	S3 -> S4[label="T0 J3\nDL=200\nES=95\nLS=119\nEF=127\nLF=159",fontsize=8];
+	S4 -> S5[label="T0 J7\nDL=200\nES=95\nLS=119\nEF=162\nLF=203",color=Red,fontcolor=Red,fontsize=8];
+S5[color=Red];
+}

@@ -1,0 +1,702 @@
+Response found 1008
+WCW 1606
+        Melani 2015 constrained (GP-FP-FTP): 0: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300187
+File saved successfully.
+File saved successfully.
+0
+Response found 794
+WCW 1178
+        Melani 2015 constrained (GP-FP-FTP): 1: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298228
+File saved successfully.
+File saved successfully.
+0
+Response found 589
+WCW 803
+        Melani 2015 constrained (GP-FP-FTP): 2: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297407
+File saved successfully.
+File saved successfully.
+0
+Response found 581.5
+WCW 719
+        Melani 2015 constrained (GP-FP-FTP): 3: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299583
+File saved successfully.
+File saved successfully.
+0
+Response found 659.5
+WCW 883
+        Melani 2015 constrained (GP-FP-FTP): 4: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299322
+File saved successfully.
+File saved successfully.
+0
+Response found 663.5
+WCW 1001
+        Melani 2015 constrained (GP-FP-FTP): 5: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298806
+File saved successfully.
+File saved successfully.
+0
+Response found 1292.5
+WCW 2072
+        Melani 2015 constrained (GP-FP-FTP): 6: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.30029
+File saved successfully.
+File saved successfully.
+0
+Response found 1425.5
+WCW 2338
+        Melani 2015 constrained (GP-FP-FTP): 7: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299744
+File saved successfully.
+File saved successfully.
+0
+Response found 1495.5
+WCW 2525
+        Melani 2015 constrained (GP-FP-FTP): 8: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300595
+File saved successfully.
+File saved successfully.
+0
+Response found 670.5
+WCW 883
+        Melani 2015 constrained (GP-FP-FTP): 9: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299322
+File saved successfully.
+File saved successfully.
+0
+Response found 1170
+WCW 1945
+        Melani 2015 constrained (GP-FP-FTP): 10: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299231
+File saved successfully.
+File saved successfully.
+0
+Response found 456.5
+WCW 654
+        Melani 2015 constrained (GP-FP-FTP): 11: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297273
+File saved successfully.
+File saved successfully.
+0
+Response found 684.5
+WCW 941
+        Melani 2015 constrained (GP-FP-FTP): 12: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29873
+File saved successfully.
+File saved successfully.
+0
+Response found 690
+WCW 888
+        Melani 2015 constrained (GP-FP-FTP): 13: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301017
+File saved successfully.
+File saved successfully.
+0
+Response found 407
+WCW 456
+        Melani 2015 constrained (GP-FP-FTP): 14: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.304
+File saved successfully.
+File saved successfully.
+0
+Response found 1208
+WCW 1921
+        Melani 2015 constrained (GP-FP-FTP): 15: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300156
+File saved successfully.
+File saved successfully.
+0
+Response found 506
+WCW 730
+        Melani 2015 constrained (GP-FP-FTP): 16: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297959
+File saved successfully.
+File saved successfully.
+0
+Response found 910.5
+WCW 1430
+        Melani 2015 constrained (GP-FP-FTP): 17: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301053
+File saved successfully.
+File saved successfully.
+0
+Response found 1212
+WCW 2041
+        Melani 2015 constrained (GP-FP-FTP): 18: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300147
+File saved successfully.
+File saved successfully.
+0
+Response found 1025.5
+WCW 1619
+        Melani 2015 constrained (GP-FP-FTP): 19: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299815
+File saved successfully.
+File saved successfully.
+0
+Response found 602
+WCW 856
+        Melani 2015 constrained (GP-FP-FTP): 20: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300351
+File saved successfully.
+File saved successfully.
+0
+Response found 883.5
+WCW 1426
+        Melani 2015 constrained (GP-FP-FTP): 21: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300211
+File saved successfully.
+File saved successfully.
+0
+Response found 711.5
+WCW 934
+        Melani 2015 constrained (GP-FP-FTP): 22: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.30129
+File saved successfully.
+File saved successfully.
+0
+Response found 635.5
+WCW 810
+        Melani 2015 constrained (GP-FP-FTP): 23: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3
+File saved successfully.
+File saved successfully.
+0
+Response found 441.5
+WCW 555
+        Melani 2015 constrained (GP-FP-FTP): 24: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3
+File saved successfully.
+File saved successfully.
+0
+Response found 670
+WCW 876
+        Melani 2015 constrained (GP-FP-FTP): 25: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.302069
+File saved successfully.
+File saved successfully.
+0
+Response found 1389
+WCW 2307
+        Melani 2015 constrained (GP-FP-FTP): 26: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29961
+File saved successfully.
+File saved successfully.
+0
+Response found 1209
+WCW 2031
+        Melani 2015 constrained (GP-FP-FTP): 27: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300889
+File saved successfully.
+File saved successfully.
+0
+Response found 1581
+WCW 2675
+        Melani 2015 constrained (GP-FP-FTP): 28: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300562
+File saved successfully.
+File saved successfully.
+0
+Response found 1274
+WCW 2069
+        Melani 2015 constrained (GP-FP-FTP): 29: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299855
+File saved successfully.
+File saved successfully.
+0
+Response found 1064
+WCW 1726
+        Melani 2015 constrained (GP-FP-FTP): 30: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300174
+File saved successfully.
+File saved successfully.
+0
+Response found 1220
+WCW 2007
+        Melani 2015 constrained (GP-FP-FTP): 31: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299552
+File saved successfully.
+File saved successfully.
+0
+Response found 737.5
+WCW 1093
+        Melani 2015 constrained (GP-FP-FTP): 32: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299452
+File saved successfully.
+File saved successfully.
+0
+Response found 887.5
+WCW 1402
+        Melani 2015 constrained (GP-FP-FTP): 33: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301505
+File saved successfully.
+File saved successfully.
+0
+Response found 672
+WCW 936
+        Melani 2015 constrained (GP-FP-FTP): 34: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301935
+File saved successfully.
+File saved successfully.
+0
+Response found 576
+WCW 706
+        Melani 2015 constrained (GP-FP-FTP): 35: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300426
+File saved successfully.
+File saved successfully.
+0
+Response found 857
+WCW 1192
+        Melani 2015 constrained (GP-FP-FTP): 36: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301772
+File saved successfully.
+File saved successfully.
+0
+Response found 1075
+WCW 1711
+        Melani 2015 constrained (GP-FP-FTP): 37: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300175
+File saved successfully.
+File saved successfully.
+0
+Response found 1333
+WCW 2211
+        Melani 2015 constrained (GP-FP-FTP): 38: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300816
+File saved successfully.
+File saved successfully.
+0
+Response found 1295
+WCW 2201
+        Melani 2015 constrained (GP-FP-FTP): 39: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299456
+File saved successfully.
+File saved successfully.
+0
+Response found 1168.5
+WCW 1880
+        Melani 2015 constrained (GP-FP-FTP): 40: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3008
+File saved successfully.
+File saved successfully.
+0
+Response found 1335
+WCW 2203
+        Melani 2015 constrained (GP-FP-FTP): 41: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299728
+File saved successfully.
+File saved successfully.
+0
+Response found 1025
+WCW 1620
+        Melani 2015 constrained (GP-FP-FTP): 42: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3
+File saved successfully.
+File saved successfully.
+0
+Response found 797.5
+WCW 1052
+        Melani 2015 constrained (GP-FP-FTP): 43: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300571
+File saved successfully.
+File saved successfully.
+0
+Response found 592.5
+WCW 737
+        Melani 2015 constrained (GP-FP-FTP): 44: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300816
+File saved successfully.
+File saved successfully.
+0
+Response found 620.5
+WCW 893
+        Melani 2015 constrained (GP-FP-FTP): 45: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297667
+File saved successfully.
+File saved successfully.
+0
+Response found 470.5
+WCW 531
+        Melani 2015 constrained (GP-FP-FTP): 46: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.303429
+File saved successfully.
+File saved successfully.
+0
+Response found 449.5
+WCW 568
+        Melani 2015 constrained (GP-FP-FTP): 47: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298947
+File saved successfully.
+File saved successfully.
+0
+Response found 1098
+WCW 1780
+        Melani 2015 constrained (GP-FP-FTP): 48: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29916
+File saved successfully.
+File saved successfully.
+0
+Response found 1250.5
+WCW 2040
+        Melani 2015 constrained (GP-FP-FTP): 49: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3
+File saved successfully.
+File saved successfully.
+0
+Response found 1053.5
+WCW 1614
+        Melani 2015 constrained (GP-FP-FTP): 50: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298889
+File saved successfully.
+File saved successfully.
+0
+Response found 985.5
+WCW 1474
+        Melani 2015 constrained (GP-FP-FTP): 51: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300816
+File saved successfully.
+File saved successfully.
+0
+Response found 909.5
+WCW 1324
+        Melani 2015 constrained (GP-FP-FTP): 52: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300909
+File saved successfully.
+File saved successfully.
+0
+Response found 1173
+WCW 1877
+        Melani 2015 constrained (GP-FP-FTP): 53: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.30032
+File saved successfully.
+File saved successfully.
+0
+Response found 717.5
+WCW 991
+        Melani 2015 constrained (GP-FP-FTP): 54: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300303
+File saved successfully.
+File saved successfully.
+0
+Response found 602
+WCW 739
+        Melani 2015 constrained (GP-FP-FTP): 55: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301633
+File saved successfully.
+File saved successfully.
+0
+Response found 711.5
+WCW 951
+        Melani 2015 constrained (GP-FP-FTP): 56: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301905
+File saved successfully.
+File saved successfully.
+0
+Response found 386
+WCW 427
+        Melani 2015 constrained (GP-FP-FTP): 57: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.305
+File saved successfully.
+File saved successfully.
+0
+Response found 395.5
+WCW 533
+        Melani 2015 constrained (GP-FP-FTP): 58: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.296111
+File saved successfully.
+File saved successfully.
+0
+Response found 1297.5
+WCW 2135
+        Melani 2015 constrained (GP-FP-FTP): 59: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300704
+File saved successfully.
+File saved successfully.
+0
+Response found 962
+WCW 1475
+        Melani 2015 constrained (GP-FP-FTP): 60: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.30102
+File saved successfully.
+File saved successfully.
+0
+Response found 1043
+WCW 1541
+        Melani 2015 constrained (GP-FP-FTP): 61: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299223
+File saved successfully.
+File saved successfully.
+0
+Response found 1000.5
+WCW 1539
+        Melani 2015 constrained (GP-FP-FTP): 62: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298835
+File saved successfully.
+File saved successfully.
+0
+Response found 690
+WCW 917
+        Melani 2015 constrained (GP-FP-FTP): 63: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300656
+File saved successfully.
+File saved successfully.
+0
+Response found 1214
+WCW 1910
+        Melani 2015 constrained (GP-FP-FTP): 64: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300787
+File saved successfully.
+File saved successfully.
+0
+Response found 1054.5
+WCW 1661
+        Melani 2015 constrained (GP-FP-FTP): 65: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299279
+File saved successfully.
+File saved successfully.
+0
+Response found 319.5
+WCW 381
+        Melani 2015 constrained (GP-FP-FTP): 66: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.3048
+File saved successfully.
+File saved successfully.
+0
+Response found 645.5
+WCW 892
+        Melani 2015 constrained (GP-FP-FTP): 67: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.302373
+File saved successfully.
+File saved successfully.
+0
+Response found 252.5
+WCW 274
+        Melani 2015 constrained (GP-FP-FTP): 68: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.304444
+File saved successfully.
+File saved successfully.
+0
+Response found 353
+WCW 404
+        Melani 2015 constrained (GP-FP-FTP): 69: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299259
+File saved successfully.
+File saved successfully.
+0
+Response found 1702
+WCW 3008
+        Melani 2015 constrained (GP-FP-FTP): 70: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299303
+File saved successfully.
+File saved successfully.
+0
+Response found 1266.5
+WCW 2005
+        Melani 2015 constrained (GP-FP-FTP): 71: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299254
+File saved successfully.
+File saved successfully.
+0
+Response found 681
+WCW 906
+        Melani 2015 constrained (GP-FP-FTP): 72: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.302
+File saved successfully.
+File saved successfully.
+0
+Response found 1290.5
+WCW 2067
+        Melani 2015 constrained (GP-FP-FTP): 73: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299565
+File saved successfully.
+File saved successfully.
+0
+Response found 820.5
+WCW 1074
+        Melani 2015 constrained (GP-FP-FTP): 74: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298333
+File saved successfully.
+File saved successfully.
+0
+Response found 728
+WCW 1088
+        Melani 2015 constrained (GP-FP-FTP): 75: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298082
+File saved successfully.
+File saved successfully.
+0
+Response found 931.5
+WCW 1434
+        Melani 2015 constrained (GP-FP-FTP): 76: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29875
+File saved successfully.
+File saved successfully.
+0
+Response found 250
+WCW 292
+        Melani 2015 constrained (GP-FP-FTP): 77: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.307368
+File saved successfully.
+File saved successfully.
+0
+Response found 558
+WCW 681
+        Melani 2015 constrained (GP-FP-FTP): 78: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.302667
+File saved successfully.
+File saved successfully.
+0
+Response found 1375.5
+WCW 2321
+        Melani 2015 constrained (GP-FP-FTP): 79: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299484
+File saved successfully.
+File saved successfully.
+0
+Response found 408.5
+WCW 440
+        Melani 2015 constrained (GP-FP-FTP): 80: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.303448
+File saved successfully.
+File saved successfully.
+0
+Response found 1129.5
+WCW 1889
+        Melani 2015 constrained (GP-FP-FTP): 81: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299841
+File saved successfully.
+File saved successfully.
+0
+Response found 1413.5
+WCW 2441
+        Melani 2015 constrained (GP-FP-FTP): 82: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299509
+File saved successfully.
+File saved successfully.
+0
+Response found 922
+WCW 1450
+        Melani 2015 constrained (GP-FP-FTP): 83: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298969
+File saved successfully.
+File saved successfully.
+0
+Response found 1112.5
+WCW 1780
+        Melani 2015 constrained (GP-FP-FTP): 84: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29916
+File saved successfully.
+File saved successfully.
+0
+Response found 639.5
+WCW 879
+        Melani 2015 constrained (GP-FP-FTP): 85: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297966
+File saved successfully.
+File saved successfully.
+0
+Response found 1110.5
+WCW 1825
+        Melani 2015 constrained (GP-FP-FTP): 86: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.29918
+File saved successfully.
+File saved successfully.
+0
+Response found 782.5
+WCW 1172
+        Melani 2015 constrained (GP-FP-FTP): 87: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300513
+File saved successfully.
+File saved successfully.
+0
+Response found 598.5
+WCW 796
+        Melani 2015 constrained (GP-FP-FTP): 88: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300377
+File saved successfully.
+File saved successfully.
+0
+Response found 383
+WCW 459
+        Melani 2015 constrained (GP-FP-FTP): 89: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.296129
+File saved successfully.
+File saved successfully.
+0
+Response found 1427
+WCW 2498
+        Melani 2015 constrained (GP-FP-FTP): 90: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299162
+File saved successfully.
+File saved successfully.
+0
+Response found 1319
+WCW 2208
+        Melani 2015 constrained (GP-FP-FTP): 91: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300408
+File saved successfully.
+File saved successfully.
+0
+Response found 1117
+WCW 1705
+        Melani 2015 constrained (GP-FP-FTP): 92: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.299123
+File saved successfully.
+File saved successfully.
+0
+Response found 1737.5
+WCW 3019
+        Melani 2015 constrained (GP-FP-FTP): 93: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300398
+File saved successfully.
+File saved successfully.
+0
+Response found 785.5
+WCW 1076
+        Melani 2015 constrained (GP-FP-FTP): 94: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298889
+File saved successfully.
+File saved successfully.
+0
+Response found 515.5
+WCW 686
+        Melani 2015 constrained (GP-FP-FTP): 95: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.298261
+File saved successfully.
+File saved successfully.
+0
+Response found 643.5
+WCW 856
+        Melani 2015 constrained (GP-FP-FTP): 96: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.300351
+File saved successfully.
+File saved successfully.
+0
+Response found 305.5
+WCW 398
+        Melani 2015 constrained (GP-FP-FTP): 97: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.294815
+File saved successfully.
+File saved successfully.
+0
+Response found 1059
+WCW 1657
+        Melani 2015 constrained (GP-FP-FTP): 98: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.301273
+File saved successfully.
+File saved successfully.
+0
+Response found 615
+WCW 834
+        Melani 2015 constrained (GP-FP-FTP): 99: 1
+        Nasri 2019 constrained (G-LP-FTP): 0.297857
+File saved successfully.
+File saved successfully.
+0
+Avg utilization 0.300118
+        Melani 2015 constrained (GP-FP-EDF): 100
